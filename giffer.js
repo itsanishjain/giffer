@@ -5,7 +5,7 @@ const { promisify } = require("util");
 const path = require("path");
 
 const readdirAsync = promisify(readdir);
-const imagesFolder = path.join(__dirname, "layers/Eye color");
+const imagesFolder = path.join(__dirname, "lilOutput");
 console.log(imagesFolder);
 
 async function createGif(algorithm) {
